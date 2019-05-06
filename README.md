@@ -1,7 +1,7 @@
 # Sequelize Relations Lab
 
 ### Getting Started
-Create a new project folder and `cd` into that folder. Run `npm init`. 
+Create a new project folder and `cd` into that folder. Run `npm init`.
 
 Add Sequelize to your project:
 
@@ -79,12 +79,12 @@ const main = async () => {
   await Author.destroy({
     where: {}
   });
-  
+
   // create books and authors and relationships here
   // (HOLD OFF FOR NOW, INSTRUCTIONS FOR THIS BELOW)
-  
+
  };
- 
+
  main();
 ```
 

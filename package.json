@@ -4,7 +4,9 @@
   "description": "### Getting Started Create a new project folder and `cd` into that folder. Run `npm init`.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js",
+    "resetDb": "node resetDb.js"
   },
   "repository": {
     "type": "git",
